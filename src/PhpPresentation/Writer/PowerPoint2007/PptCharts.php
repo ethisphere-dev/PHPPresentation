@@ -351,7 +351,12 @@ class PptCharts extends AbstractDecoratorWriter
         // c:strLit / c:numLit
         // c:strRef / c:numRef
         $referenceType = ($isReference ? 'Ref' : 'Lit');
-        $dataType = is_numeric($values[0]) ? 'num' : 'str';
+        $dataType = 'num';
+        foreach ($values as $value){
+            if (!is_numeric($value)){
+                $dataType = 'str';
+            }
+        }
         $objWriter->startElement('c:' . $dataType . $referenceType);
 
         $numValues = count($values);
