@@ -196,9 +196,11 @@ abstract class AbstractShape implements ComparableInterface
      *
      * @return $this
      */
-    public function setOffsetX(int|float $pValue = 0) {
-    $this->offsetX = (int) $pValue;
-    return $this;
+    public function setOffsetX(int $pValue = 0)
+    {
+        $this->offsetX = $pValue;
+
+        return $this;
     }
 
     /**
@@ -216,9 +218,11 @@ abstract class AbstractShape implements ComparableInterface
      *
      * @return $this
      */
-    public function setOffsetY(int|float $pValue = 0) {
-    $this->offsetY = (int) $pValue;
-    return $this;
+    public function setOffsetY(int $pValue = 0)
+    {
+        $this->offsetY = $pValue;
+
+        return $this;
     }
 
     /**
@@ -236,9 +240,11 @@ abstract class AbstractShape implements ComparableInterface
      *
      * @return $this
      */
-    public function setWidth(int|float $pValue = 0) {
-    $this->width = (int) $pValue;
-    return $this;
+    public function setWidth(int $pValue = 0)
+    {
+        $this->width = $pValue;
+
+        return $this;
     }
 
     /**
@@ -256,9 +262,11 @@ abstract class AbstractShape implements ComparableInterface
      *
      * @return $this
      */
-    public function setHeight(int|float $pValue = 0) {
-    $this->height = (int) $pValue;
-    return $this;
+    public function setHeight(int $pValue = 0)
+    {
+        $this->height = $pValue;
+
+        return $this;
     }
 
     /**
