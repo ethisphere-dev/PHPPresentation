@@ -1,0 +1,8 @@
+# Direct-username reviewer routing. Owners are auto-REQUESTED, not required
+# (merge gate is >=1 approval). See ai-toolkit/docs/codeowners-and-routing.md.
+
+*           @LilyEssence
+
+# Claude / Spec-Kit harness
+.claude/    @LilyEssence
+.specify/   @LilyEssence
