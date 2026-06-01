@@ -7,3 +7,8 @@
 CLAUDE.md   @ethisphere-dev/ai-lead
 .claude/    @ethisphere-dev/ai-lead
 .specify/   @ethisphere-dev/ai-lead
+
+# platform + security
+/.github/     @ethisphere-dev/devops
+.dockerignore @ethisphere-dev/devops
+Dockerfile    @ethisphere-dev/devops
