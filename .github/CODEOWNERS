@@ -1,8 +1,8 @@
-# Direct-username reviewer routing. Owners are auto-REQUESTED, not required
+# Team-based reviewer routing. Owners are auto-REQUESTED, not required
 # (merge gate is >=1 approval). See ai-toolkit/docs/codeowners-and-routing.md.
 
-*           @LilyEssence
+*           @ethisphere-dev/laravel-lead
 
 # Claude / Spec-Kit harness
-.claude/    @LilyEssence
-.specify/   @LilyEssence
+.claude/    @ethisphere-dev/ai-lead
+.specify/   @ethisphere-dev/ai-lead
