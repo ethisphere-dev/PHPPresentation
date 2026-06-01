@@ -1,5 +1,5 @@
 # Team-based reviewer routing. Owners are auto-REQUESTED, not required
-# (merge gate is >=1 approval). See ai-toolkit/docs/codeowners-and-routing.md.
+# (merge gate is >=1 approval). See ../../ai-toolkit/docs/codeowners-and-routing.md.
 
 *           @ethisphere-dev/laravel-lead
 
