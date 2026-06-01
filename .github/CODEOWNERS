@@ -4,5 +4,6 @@
 *           @ethisphere-dev/laravel-lead
 
 # Claude / Spec-Kit harness
+CLAUDE.md   @ethisphere-dev/ai-lead
 .claude/    @ethisphere-dev/ai-lead
 .specify/   @ethisphere-dev/ai-lead
