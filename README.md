@@ -1,3 +1,14 @@
+> ## Ethisphere fork notice (frozen)
+>
+> This is a **frozen fork** of [`PHPOffice/PHPPresentation`](https://github.com/PHPOffice/PHPPresentation), held on a ~2023-era base. It is not kept in sync with upstream.
+>
+> - **Forked for:** chart bugs upstream wasn't merging at the time (axis min/max bounds = 0, mixed numeric/string series values, default axis format code) and a Lato default-font change that worked around not being able to set the font from the ECA app.
+> - **Current state:** as of 2026-06 those bugs are all fixed upstream (the bounds fix is our own upstream PR [#771](https://github.com/PHPOffice/PHPPresentation/pull/771)). The only fork-unique change left is the Lato default font in `src/PhpPresentation/Style/Font.php`.
+> - **Why frozen:** ECA is largely on ice; regression-testing the app against a library ~3 years newer has no payoff. We accept staying on the 2023 base.
+> - **To upgrade later:** don't 3-way merge from upstream (conflicts everywhere). Branch off `develop`, replace the tree wholesale with upstream's tip, then re-apply the Lato default on top (conflict-free, since the branch descends from `develop`).
+>
+> Everything below is the upstream project's original README.
+
 # ![PHPPresentation](https://raw.githubusercontent.com/mvargasmoran/PHPPresentation/develop/docs/images/PHPPresentationLogo.png "PHPPresentation")
 
 [![Latest Stable Version](https://poser.pugx.org/phpoffice/phppresentation/v/stable.png)](https://packagist.org/packages/phpoffice/phppresentation)
